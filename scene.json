@@ -1,0 +1,68 @@
+{
+  "ecs7": true,
+  "runtimeVersion": "7",
+  "display": {
+    "title": "Orbit Stage",
+    "description": "",
+    "navmapThumbnail": "images/scene-thumbnail.png",
+    "favicon": "favicon_asset"
+  },
+  "owner": "",
+  "contact": {
+    "name": "MetaRizk.net",
+    "email": "rizk@metarizk.net"
+  },
+  "main": "bin/index.js",
+  "tags": [
+    "atlas:*"
+  ],
+  "scene": {
+    "parcels": [
+      "-137,54",
+      "-137,53",
+      "-137,52",
+      "-137,51",
+      "-137,50",
+      "-136,54",
+      "-136,53",
+      "-136,52",
+      "-136,51",
+      "-136,50"
+    ],
+    "base": "-136,53"
+  },
+  "spawnPoints": [
+    {
+      "name": "Spawn Point 1",
+      "default": true,
+      "position": {
+        "x": [
+          0,
+          0
+        ],
+        "y": [
+          1,
+          1
+        ],
+        "z": [
+          29.3,
+          29.3
+        ]
+      },
+      "cameraTarget": {
+        "x": 0,
+        "y": 0,
+        "z": 24
+      }
+    }
+  ],
+  "requiredPermissions": [
+    "ALLOW_TO_TRIGGER_AVATAR_EMOTE",
+    "ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE"
+  ],
+  "featureToggles": {
+    "voiceChat": "enabled",
+    "portableExperiences": "enabled"
+  },
+  "rating": "T"
+}
